@@ -1,0 +1,59 @@
+@import './global.css';
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--black);
+  align-items: center;
+  color: var(--yellow);
+}
+
+.body {
+  background-color: var(--black);
+  /* background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%); */
+  color: var(--brightYellow);
+  text-align: start;
+  padding: 1rem 1rem 0.7rem 1rem;
+}
+
+.footer {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--cyan);
+  text-align: left;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.textBox {
+  width: 100%;
+  height: calc(100% - 27px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: scroll;
+}
+
+.textBox::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.href {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.prompt {
+  color: aliceblue;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
