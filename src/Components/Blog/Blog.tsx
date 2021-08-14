@@ -13,7 +13,7 @@ function listPosts() {
       {allPosts.map((item) => (
         <div style={{ padding: '1rem' }}>
           <div>
-            <a className='href' href='/blog/unvaried'>
+            <a className='href' href={`/blog${item.href}`}>
               {item.title}
             </a>
           </div>

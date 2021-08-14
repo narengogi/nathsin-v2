@@ -31,7 +31,7 @@
   height: calc(100% - 27px);
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 1rem;
   overflow: scroll;
 }
 
@@ -56,4 +56,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.text {
+  line-height: 1.5;
+}
+
+.textSoft {
+  color: var(--yellow);
+  line-height: 1.5;
+  text-decoration: none;
 }
