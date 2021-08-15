@@ -63,7 +63,7 @@
 }
 
 .textSoft {
-  color: var(--yellow);
+  color: var(--brightWhite);
   line-height: 1.5;
   text-decoration: none;
 }

@@ -17,7 +17,7 @@ function listPosts() {
               {item.title}
             </a>
           </div>
-          <div style={{ fontSize: '10px' }}>{item.date}</div>
+          <div style={{ fontSize: '10px', paddingTop: '0.25rem' }}>{item.date}</div>
         </div>
       ))}
     </div>

@@ -8,10 +8,10 @@ import { takingABreak } from './Posts/break';
 
 export const allPosts: any = [
   { title: 'Unvaried Iterations', date: '22nd May 2021', href: '/unvaried', content: unvaried() },
-  { title: 'Dealing With Absence', date: '22nd May 2021', href: '/absence', content: absence() },
-  { title: 'Futility', date: '22nd May 2021', href: '/futility', content: futility() },
-  { title: 'Hello World', date: '22nd May 2021', href: '/hello-world', content: helloWorld() },
-  { title: 'Quantifying Information', date: '22nd May 2021', href: '/information', content: information() },
-  { title: 'More On The Loops', date: '22nd May 2021', href: '/loops', content: moreOnTheLoops() },
-  { title: `I'm Taking A Break`, date: '22nd May 2021', href: '/break', content: takingABreak() },
+  { title: 'Quantifying Information', date: '24th March 2021', href: '/information', content: information() },
+  { title: 'Dealing With Absence', date: '17th Jan 2021', href: '/absence', content: absence() },
+  { title: `I'm Taking A Break`, date: '14th August 2020', href: '/break', content: takingABreak() },
+  { title: 'Futility', date: '24th July 2020', href: '/futility', content: futility() },
+  { title: 'More On The Loops', date: '13th July 2020', href: '/loops', content: moreOnTheLoops() },
+  { title: 'Hello World', date: '07th July 2020', href: '/hello-world', content: helloWorld() },
 ];

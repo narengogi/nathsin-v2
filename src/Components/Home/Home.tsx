@@ -47,14 +47,14 @@ function Home(props) {
       </div>
       <div>
         <Typer message={`If you're looking for code, you can checkout my GitHub profile here ---->`} class='text' type={'span'} skip={curr > 6} load={curr === 6} callback={() => next()} />
-        <Typer message={`\u0020 GitHub`} class='textSoft' type={'a'} skip={curr > 7} load={curr === 7} callback={() => next()} href='https://github.com/nathsin' />
+        <Typer message={`\u0020 GitHub`} class='href' type={'a'} skip={curr > 7} load={curr === 7} callback={() => next()} href='https://github.com/nathsin' />
       </div>
       <Typer message={`Well that's about it I suppose :)`} class='textSoft' type={'div'} skip={curr > 8} load={curr === 8} callback={() => next()} />
       <div>
         <Typer message={`I can be reached at ---->`} class='text' type={'span'} skip={curr > 9} load={curr === 9} callback={() => next()} />
         <Typer
           message={`\u0020 remove-all-the-lexemmes-before-my-name-narengogineni[at]protonmail.com`}
-          class='textSoft'
+          class='href'
           type={'a'}
           skip={curr > 10}
           load={curr === 10}
