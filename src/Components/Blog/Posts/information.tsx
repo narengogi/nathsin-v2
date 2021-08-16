@@ -3,7 +3,7 @@ import React from 'react';
 export function information() {
   return (
     <div>
-      <div>
+      <div className='para'>
         How does one quantify an amount of information? Is it the amount of encoding it requires, per the theory of Shannon? Or is it, say, the amount of energy one’s graymatter consumes processing
         that information? It’s no complex dilemma, the physical can be quantified, and the rest is largely target dependent (let me put to rest any speculation - I am no fan of mind-matter duality (In
         the sense that I believe that one day we might be able to fundamentally weigh a lot of the quantities that are now considered ‘not-measurable’)). But in the context of our discussion, which is
@@ -12,7 +12,7 @@ export function information() {
         unfinished essays of mine, like wanting to see if the Chomskian idea of memes could generalise and be a fundamental unit of all the information around us, or the piece about being fed-up with
         my own mindless social media consumption (To be honest I try to finish this one again and again every 2-3 months).
       </div>
-      <div>
+      <div className='para'>
         There couldn’t be a better case study for this than the internet. In 2021, there are even fashionable words to clearly mark what could be an important differentiator between the valuable and
         the invaluable: The ‘Long form’ and the ‘Short form’. I think one can readily see how this difference is important, let’s say we are presented with two new and totally unrelated pieces of
         information, one in the form of a 10 second video and the other an editorial piece. Now, it is only natural that after processing them, we readily form opinions on both the subjects. But the
@@ -22,7 +22,7 @@ export function information() {
         While we are on the topic of the internet, one particularly vexing aspect of modern internet usage that we should discuss is non-linear recommendation systems. On second thought, I’ll not even
         delve into this, non-linear recommendation systems are straight up malicious. It’s mindless consumption.
       </div>
-      <div>
+      <div className='para'>
         One could also say that no information really is worthless, because value is only evident in comparison. So how much noise is really needed? Or is it needed at all? Could we, by only consuming
         ‘valuable’ information, continually raise our standard of what is ‘valuable’. Honestly, I do not know. But again, would anyone consciously resign themselves to this randomness and consume what
         it throws at them?
