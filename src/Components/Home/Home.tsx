@@ -52,15 +52,7 @@ function Home(props) {
       <Typer message={`Well that's about it I suppose :)`} class='textSoft' type={'div'} skip={curr > 8} load={curr === 8} callback={() => next()} />
       <div>
         <Typer message={`I can be reached at ---->`} class='text' type={'span'} skip={curr > 9} load={curr === 9} callback={() => next()} />
-        <Typer
-          message={`\u0020 remove-all-the-lexemmes-before-my-name-narengogineni[at]protonmail.com`}
-          class='href'
-          type={'a'}
-          skip={curr > 10}
-          load={curr === 10}
-          callback={() => next()}
-          href='mailto:narengogineni@protonmail.com'
-        />
+        <Typer message={`\u0020 remove-all-the-lexemmes-before-my-name-narengogineni[at]protonmail.com`} class='href' type={'a'} skip={curr > 10} load={curr === 10} callback={() => next()} />
       </div>
     </div>
   );
