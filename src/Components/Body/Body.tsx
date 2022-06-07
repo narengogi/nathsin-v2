@@ -6,6 +6,7 @@ import { getCke } from '../../Helpers/CookieHelper.js';
 import Home from '../Home/Home';
 import Blog from '../Blog/Blog';
 import Letters from '../Letters/Letters';
+import Journal from "../Journal/Journal";
 
 function Body() {
   const visited = getCke('visited');
@@ -20,6 +21,9 @@ function Body() {
           </Route>
           <Route path='/letters'>
             <Letters />
+          </Route>
+          <Route path='/journal'>
+            <Journal />
           </Route>
           <Route path='/'>
             {' '}
