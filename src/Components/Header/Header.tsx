@@ -13,9 +13,9 @@ function Header() {
             <a className='href' href='/letters'>
                 LETTERS
             </a>
-            <a className='href' href='/journal'>
-                OTHER
-            </a>
+            {/*<a className='href' href='/journal'>*/}
+            {/*    OTHER*/}
+            {/*</a>*/}
         </div>
     );
 }
