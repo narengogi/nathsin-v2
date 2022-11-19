@@ -6,8 +6,10 @@ import { information } from './Posts/information';
 import { moreOnTheLoops } from './Posts/moreOnTheLoops';
 import { takingABreak } from './Posts/break';
 import { randomness } from './Posts/randomness';
+import {onLove} from "./Posts/onLove";
 
 export const allPosts: any = [
+  { title: 'On Love', date: '17th November 2022', href: '/love', content: onLove() },
   { title: 'In Defense of Randomness', date: '17th August 2021', href: '/randomness', content: randomness() },
   { title: 'Unvaried Iterations', date: '22nd May 2021', href: '/unvaried', content: unvaried() },
   { title: 'Quantifying Information', date: '24th March 2021', href: '/information', content: information() },
