@@ -1,0 +1,59 @@
+<rss version="2.0">
+
+<channel>
+  <title>Essays</title>
+  <link>https://www.naths.in/blog</link>
+  <description>Essays</description>
+  <image>
+    <url>https://naths.in/blog.jpg</url>
+    <title>Essays</title>
+    <link>https://www.naths.in/blog</link>
+  </image>
+  <item>
+    <title>On Love</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Thu, 17 Nov 2022 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>In Defense of Randomness</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Wed, 17 Aug 2022 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>nvaried Iterations</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Sat, 22 May 2021 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Quantifying Information</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Wed, 24 Mar 2021 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Dealing With Absence</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Sun, 17 Jan 2021 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>I'm Taking A Break</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Fri, 14 Aug 2020 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Futility</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Fri, 24 Jul 2020 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>More On The Loops</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Mon, 13 Jul 2020 05:30:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Hello World</title>
+    <link>https://www.naths.in/blog/love</link>
+    <pubDate>Tue, 07 Jul 2020 05:30:00 GMT</pubDate>
+  </item>
+</channel>
+
+</rss> 
