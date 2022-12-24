@@ -56,4 +56,20 @@
   </item>
 </channel>
 
+<channel>
+  <title>Unedited Posts</title>
+  <link>https://www.naths.in/journal</link>
+  <description>Naren Gogi >> Unedited</description>
+  <image>
+    <url>https://naths.in/blog.jpg</url>
+    <title>Essays</title>
+    <link>https://www.naths.in/journal</link>
+  </image>
+  <item>
+    <title>On Love</title>
+    <link>https://www.naths.in/journal/brain</link>
+    <pubDate>Tue, 11 Aug 2020 05:30:00 GMT</pubDate>
+  </item>
+</channel>
+
 </rss> 
