@@ -47,7 +47,7 @@ function Home(props) {
       </div>
       <div>
         <Typer message={`If you're looking for code, you can checkout my GitHub profile here ---->`} class='text' type={'span'} skip={curr > 6} load={curr === 6} callback={() => next()} />
-        <Typer message={`\u0020 GitHub`} class='href' type={'a'} skip={curr > 7} load={curr === 7} callback={() => next()} href='https://github.com/nathsin' />
+        <Typer message={`\u0020 GitHub`} class='href' type={'a'} skip={curr > 7} load={curr === 7} callback={() => next()} href='https://github.com/narengogi' />
       </div>
       <Typer message={`Well that's about it I suppose :)`} class='textSoft' type={'div'} skip={curr > 8} load={curr === 8} callback={() => next()} />
       <div>
