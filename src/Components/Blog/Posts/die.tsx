@@ -28,7 +28,7 @@ export function die() {
                 them. What about people who kill themselves when everything is provided for? The meme continues
                 surviving by having asserted its primacy. If the goal is to find meaning and in not finding it, the meme
                 terminates the host it operates on, but it implants itself in others, by having them reason about why it
-                terminated itself.
+                terminated itself. The meme has won.
             </div>
         </div>
     );
