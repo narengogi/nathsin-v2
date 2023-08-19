@@ -24,7 +24,7 @@ export function die() {
                 entity is far removed from the gene. I’m a meme, the one that translates between memes and genes.
             </div>
             <div className='para'>
-                So let’s put aside people who kill themselves because survival looks too hard for
+                So let’s put aside people who kill themselves because survival is too hard for
                 them. What about people who kill themselves when everything is provided for? If the goal is to find
                 meaning and in not finding it, the meme
                 terminates the host it operates on, but it implants itself in others, by having them reason about why it
