@@ -4,14 +4,6 @@ export function die() {
     return (
         <div>
             <div className='para'>
-                My thathayya killed himself last December. He was 75. There’s this story about how he used to be pretty
-                normal until one day in his 30’s he spent way too much time at the vallakaadu. My parents
-                and the relatives got it registered as a natural death, as if there is no honour in killing yourself.
-                They did it to save themselves from the guilt of having let it happen. I knew he’d been very depressed
-                since ammammas death. I keep thinking that nothing made sense to him anymore. But I don’t know what had
-                changed for him in those 8 years for this to happen.
-            </div>
-            <div className='para'>
                 I often think about starving to death, or about how that act would symbolise the supremacy of the mind.
                 But if life is meaningless, so is death. The conflict must continue. Systems rearrange to serve superior
                 memes, rules are drawn to explain them, systems of formal logic emerge, and the conflicts emerge again,
