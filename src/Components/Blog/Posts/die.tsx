@@ -10,9 +10,8 @@ export function die() {
                 because the systems are impure now, the subsystems contradict each other.
             </div>
             <div className='para'>
-                The day I read Camus, I knew that my system of formal logic was shattered by a spear
-                of proof. The layers of abstraction that were built in my mind on top of the axiom that everything is
-                for the multiplication and survival of the gene (as a set of instructions) crumbled. Because ME as an
+                The layers of abstraction that were built in my mind on top of the axiom that everything is
+                for the multiplication and survival of the gene (as a set of instructions) crumbled one day. Because ME as an
                 entity is far removed from the gene. I’m a meme, the one that translates between memes and genes.
             </div>
             <div className='para'>
