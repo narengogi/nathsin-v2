@@ -13,7 +13,7 @@ import {die} from "./Posts/die";
 import {abstractions} from "./Posts/abstractions"
 
 export const allPosts: any = [
-    {title: 'abstractions', date: '9th April 2024', href: '/abstractions', content: abstractions()},
+    // {title: 'abstractions', date: '9th April 2024', href: '/abstractions', content: abstractions()},
     // {title: 'Thoughts on death', date: '19th august 2023', href: '/death', content: die()},
     {title: 'Uneasiness in being', date: '14th December 2023', href: '/being', content: uneasiness()},
     {title: 'Meme Tree', date: '20th February 2023', href: '/meme-tree', content: memeTree()},
