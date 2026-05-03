@@ -20,7 +20,10 @@ export function twentySeven() {
         Journals, code, meaningful little notes. Sadly, my friends have stopped
         making things too.
       </div>
-      <img src="/src/assets/images/dead-feedly.png" alt="rss feeder" />
+      <img
+        src="https://github.com/narengogi/nathsin-v2/blob/master/src/assets/images/dead-feedly.png"
+        alt="rss feeder"
+      />
       <div className="para">
         I’m always dreading having to check my screen-time, especially on the
         mobile phone, the phone use for me, it takes away from any meaningful
@@ -29,13 +32,19 @@ export function twentySeven() {
         over there too, paranoid for not being sufficiently in control, on
         letting algorithmic feeds influence my behaviour.
       </div>
-      <img src="/src/assets/images/chintamani.jpg" alt="chintamani" />
+      <img
+        src="https://github.com/narengogi/nathsin-v2/blob/master/src/assets/images/chintamani.jpg"
+        alt="chintamani"
+      />
       <div className="para">
         I haven’t been judicious with my spare time the last couple of years.
-        The only projects I got done last year were mapping goodreads and an LED
-        installation at my workplace. I would like to find some time for myself,
-        to leisurely walk to a natural spring, to break into a run, get lost in
-        a book, and to be able to keep my phone switched off.
+        The only projects I got done last year were{" "}
+        <a href="https://github.com/narengogi/map-of-goodreads">
+          mapping goodreads
+        </a>{" "}
+        and an LED installation at my workplace. I would like to find some time
+        for myself, to leisurely walk to a natural spring, to break into a run,
+        get lost in a book, and to be able to keep my phone switched off.
       </div>
     </div>
   );
