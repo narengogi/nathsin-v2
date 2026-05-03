@@ -23,6 +23,7 @@ export function twentySeven() {
       <img
         src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/dead-feedly.png"
         alt="rss feeder"
+        className="image"
       />
       <div className="para">
         I’m always dreading having to check my screen-time, especially on the
@@ -35,6 +36,7 @@ export function twentySeven() {
       <img
         src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/chintamani.jpg"
         alt="chintamani"
+        className="image"
       />
       <div className="para">
         I haven’t been judicious with my spare time the last couple of years.
