@@ -28,10 +28,11 @@ export function twentySeven() {
       <div className="para">
         I’m always dreading having to check my screen-time, especially on the
         mobile phone, the phone use for me, it takes away from any meaningful
-        pursuit. This is a discussion I keep returning to (check algorithms
-        blog). I was going through my journals and it is the same theme over and
-        over there too, paranoid for not being sufficiently in control, on
-        letting algorithmic feeds influence my behaviour.
+        pursuit. This is a discussion I keep returning to
+        (https://www.naths.in/blog/unvaried). I was going through my journals
+        and it is the same theme over and over there too, paranoid for not being
+        sufficiently in control, on letting algorithmic feeds influence my
+        behaviour.
       </div>
       <img
         src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/chintamani.jpg"
