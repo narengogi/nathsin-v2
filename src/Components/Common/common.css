@@ -68,6 +68,12 @@
   text-decoration: none;
 }
 
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
 .image {
   max-width: 100%;
   height: auto;

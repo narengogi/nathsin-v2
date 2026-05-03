@@ -20,11 +20,13 @@ export function twentySeven() {
         Journals, code, meaningful little notes. Sadly, my friends have stopped
         making things too.
       </div>
-      <img
-        src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/dead-feedly.png"
-        alt="rss feeder"
-        className="image"
-      />
+      <div className="imgContainer">
+        <img
+          src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/dead-feedly.png"
+          alt="rss feeder"
+          className="image"
+        />
+      </div>
       <div className="para">
         I’m always dreading having to check my screen-time, especially on the
         mobile phone, the phone use for me, it takes away from any meaningful
