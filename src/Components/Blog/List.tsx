@@ -11,8 +11,10 @@ import {memeTree} from './Posts/memeTree';
 import {uneasiness} from "./Posts/uneasiness";
 import {die} from "./Posts/die";
 import {abstractions} from "./Posts/abstractions"
+import { twentySeven } from './Posts/27';
 
 export const allPosts: any = [
+    {title: 'Twenty Seven', date: '3rd May 2026', href: '/27', content: twentySeven()},
     // {title: 'abstractions', date: '9th April 2024', href: '/abstractions', content: abstractions()},
     // {title: 'Thoughts on death', date: '19th august 2023', href: '/death', content: die()},
     {title: 'Uneasiness in being', date: '14th December 2023', href: '/being', content: uneasiness()},

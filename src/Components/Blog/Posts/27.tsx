@@ -1,0 +1,42 @@
+import React from "react";
+
+export function twentySeven() {
+  return (
+    <div>
+      <div className="para">
+        I was just going through the entries on this website, they are all very
+        juvenile. I do not want to get rid of any of them though, they are
+        snapshots of the time they were written in. I had another{" "}
+        <a href="https://github.com/narengogi/chintamani">corner</a> where I
+        experimented for a good two years with a custom graph engine for storing
+        information, it fell into disuse and the DB is deleted now. Text
+        survives.
+      </div>
+      <div className="para">
+        I was also wondering if I should migrate this website to render static
+        html and index it better. I could make use of Claude to do it. I'm
+        deferring the thought for now. I would like for some of these spaces to
+        remain as they are. (Unrelated) No one writes much of anything anymore.
+        Journals, code, meaningful little notes. Sadly, my friends have stopped
+        making things too.
+      </div>
+      <img src="/src/assets/images/dead-feedly.png" alt="rss feeder" />
+      <div className="para">
+        I’m always dreading having to check my screen-time, especially on the
+        mobile phone, the phone use for me, it takes away from any meaningful
+        pursuit. This is a discussion I keep returning to (check algorithms
+        blog). I was going through my journals and it is the same theme over and
+        over there too, paranoid for not being sufficiently in control, on
+        letting algorithmic feeds influence my behaviour.
+      </div>
+      <img src="/src/assets/images/chintamani.jpg" alt="chintamani" />
+      <div className="para">
+        I haven’t been judicious with my spare time the last couple of years.
+        The only projects I got done last year were mapping goodreads and an LED
+        installation at my workplace. I would like to find some time for myself,
+        to leisurely walk to a natural spring, to break into a run, get lost in
+        a book, and to be able to keep my phone switched off.
+      </div>
+    </div>
+  );
+}
