@@ -34,20 +34,14 @@ export function twentySeven() {
         sufficiently in control, on letting algorithmic feeds influence my
         behaviour.
       </div>
-      <img
-        src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/chintamani.jpg"
-        alt="chintamani"
-        className="image"
-      />
       <div className="para">
-        I haven’t been judicious with my spare time the last couple of years.
         The only projects I got done last year were{" "}
         <a href="https://github.com/narengogi/map-of-goodreads">
           mapping goodreads
         </a>{" "}
         and an LED installation at my workplace. I would like to find some time
-        for myself, to leisurely walk to a natural spring, to break into a run,
-        get lost in a book, and to be able to keep my phone switched off.
+        for myself, to leisurely walk to a fresh-water stream, to break into a
+        run, and to be able to keep my phone switched off.
       </div>
     </div>
   );
