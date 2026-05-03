@@ -21,7 +21,7 @@ export function twentySeven() {
         making things too.
       </div>
       <img
-        src="https://github.com/narengogi/nathsin-v2/blob/master/src/assets/images/dead-feedly.png"
+        src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/dead-feedly.png"
         alt="rss feeder"
       />
       <div className="para">
@@ -33,7 +33,7 @@ export function twentySeven() {
         letting algorithmic feeds influence my behaviour.
       </div>
       <img
-        src="https://github.com/narengogi/nathsin-v2/blob/master/src/assets/images/chintamani.jpg"
+        src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/images/chintamani.jpg"
         alt="chintamani"
       />
       <div className="para">
