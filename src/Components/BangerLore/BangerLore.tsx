@@ -126,7 +126,11 @@ function buildLink(handles: Partial<Record<SocialKey, string>>): string {
   return `https://naths.in/bangerlore?${params.toString()}`;
 }
 
-function ProfileLinks({ handles }: { handles: Partial<Record<SocialKey, string>> }) {
+function ProfileLinks({
+  handles,
+}: {
+  handles: Partial<Record<SocialKey, string>>;
+}) {
   const entries = SOCIALS.filter(({ key }) => handles[key]);
 
   if (entries.length === 0) {
@@ -162,7 +166,9 @@ function ProfileLinks({ handles }: { handles: Partial<Record<SocialKey, string>>
 }
 
 function LinkGenerator() {
-  const [handles, setHandles] = useState<Partial<Record<SocialKey, string>>>({});
+  const [handles, setHandles] = useState<Partial<Record<SocialKey, string>>>(
+    {},
+  );
   const [generatedLink, setGeneratedLink] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
 
@@ -226,7 +232,7 @@ function BangerLore() {
 
   return (
     <div className="centeredContainer bangerlore">
-      <div className="bangerlore-title">bangerlore</div>
+      <div className="bangerlore-title">bang my lore</div>
       {hasHandles ? <ProfileLinks handles={handles} /> : <LinkGenerator />}
     </div>
   );
