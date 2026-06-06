@@ -7,6 +7,7 @@ import Home from '../Home/Home';
 import Blog from '../Blog/Blog';
 import Letters from '../Letters/Letters';
 import Journal from "../Journal/Journal";
+import BangerLore from '../BangerLore/BangerLore';
 
 function Body() {
   const visited = getCke('visited');
@@ -24,6 +25,9 @@ function Body() {
           </Route>
           <Route path='/journal'>
             <Journal />
+          </Route>
+          <Route path='/bangerlore'>
+            <BangerLore />
           </Route>
           <Route path='/'>
             {' '}
