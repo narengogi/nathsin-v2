@@ -6,7 +6,8 @@
 
 .blog-filters {
   position: sticky;
-  top: 0;
+  /* cancels .body's padding-top, which sticky insets are measured from */
+  top: -1rem;
   z-index: 1;
   display: flex;
   flex-wrap: wrap;
