@@ -106,6 +106,11 @@ function Blog() {
               <PostList />
             </div>
           </Route>
+          <Route exact path='/'>
+            <div className='centeredContainer'>
+              <PostList />
+            </div>
+          </Route>
         </Switch>
       </Router>{' '}
     </div>

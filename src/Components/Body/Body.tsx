@@ -17,6 +17,18 @@ function Body() {
     <div className='body'>
       <Router history={history}>
         <Switch>
+          <Route path='/home'>
+            {' '}
+            <Home skipAll={skipAll} />{' '}
+            {!visited && (
+              <div style={{ fontSize: '8px', textAlign: 'end' }}>
+                Tap anywhere to speed up <div>or</div>{' '}
+                <div style={{ cursor: 'pointer' }} onClick={() => setSkipAll(true)}>
+                  Tap here to skip
+                </div>
+              </div>
+            )}
+          </Route>
           <Route path='/blog'>
             <Blog />
           </Route>
@@ -29,17 +41,8 @@ function Body() {
           <Route path='/bangerlore'>
             <BangerLore />
           </Route>
-          <Route path='/'>
-            {' '}
-            <Home skipAll={skipAll} />{' '}
-            {!visited && (
-              <div style={{ fontSize: '8px', textAlign: 'end' }}>
-                Tap anywhere to speed up <div>or</div>{' '}
-                <div style={{ cursor: 'pointer' }} onClick={() => setSkipAll(true)}>
-                  Tap here to skip
-                </div>
-              </div>
-            )}
+          <Route exact path='/'>
+            <Blog />
           </Route>
         </Switch>
       </Router>
