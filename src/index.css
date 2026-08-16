@@ -13,4 +13,5 @@ body,
 html {
   font-family: 'Share Tech', monospace;
   src: local('/ShareTechMono-Regulat.ttf');
+  background-color: var(--black, #000000);
 }
