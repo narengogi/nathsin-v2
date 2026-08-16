@@ -5,7 +5,7 @@ import Static from '../Atoms/Static';
 import { welcome, about } from './text';
 import { addCke } from '../../Helpers/CookieHelper.js';
 
-function Home(props) {
+function Home(props: { skipAll: boolean }) {
   const [curr, setCurr] = useState(0);
 
   const handleClick = () => {

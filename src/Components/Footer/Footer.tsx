@@ -9,7 +9,8 @@ function Footer() {
       <a href="https://naths.in/rss.xml">
         <RssIcon
           width="0.8rem"
-          alt="RSS icon"
+          role="img"
+          aria-label="RSS icon"
           style={{ marginBottom: "-2px", marginRight: "0.5rem" }}
         />
         RSS
@@ -17,7 +18,8 @@ function Footer() {
       <a href="https://www.goodreads.com/user/show/108597085-naren">
         <GoodreadsIcon
           width="0.8rem"
-          alt="Goodreads icon"
+          role="img"
+          aria-label="Goodreads icon"
           style={{ marginBottom: "-2px", marginRight: "0.5rem" }}
         />
         Goodreads
