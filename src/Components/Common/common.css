@@ -73,8 +73,11 @@
 
 .imgContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 2rem 0;
+  gap: 0.5rem;
 }
 
 .image {
@@ -82,4 +85,12 @@
   height: auto;
   display: block;
   max-height: 320px;
+}
+
+.imgCaption {
+  font-size: 11px;
+  color: var(--brightBlack);
+  text-align: center;
+  line-height: 1.4;
+  max-width: 320px;
 }
