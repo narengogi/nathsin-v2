@@ -28,8 +28,9 @@
 
 .footer {
   font-size: 12px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  gap: 1rem;
   background-color: var(--black);
   color: var(--cyan);
   text-align: left;
