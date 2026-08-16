@@ -8,14 +8,14 @@ function Header() {
         HOME
       </a>
       <a className='href' href='/blog'>
-        ESSAYS
+        POSTS
       </a>
       <a className='href' href='/letters'>
         LETTERS
       </a>
-      <a className='href' href='/journal'>
+      {/* <a className='href' href='/journal'>
         OTHER
-      </a>
+      </a> */}
     </div>
   );
 }

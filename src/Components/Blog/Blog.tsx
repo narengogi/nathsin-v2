@@ -9,7 +9,7 @@ function listPosts() {
   console.log('test');
   return (
     <div>
-      <div style={{ fontSize: '24px', color: 'var(--white)', padding: '2rem 0' }}>All Posts</div>
+      <div className='pageTitle' style={{ fontSize: '24px', color: 'var(--white)', padding: '2rem 0' }}>All Posts</div>
       {allPosts.map((item) => (
         <div style={{ padding: '1rem' }}>
           <div>
