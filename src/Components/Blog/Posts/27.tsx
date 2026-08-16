@@ -31,19 +31,25 @@ export function twentySeven() {
         I’m always dreading having to check my screen-time, especially on the
         mobile phone, the phone use for me, it takes away from any meaningful
         pursuit. This is a discussion I keep returning to
-        (https://www.naths.in/blog/unvaried). I was going through my journals
-        and it is the same theme over and over there too, paranoid for not being
-        sufficiently in control, on letting algorithmic feeds influence my
-        behaviour.
+        <a href="https://www.naths.in/blog/unvaried">
+          (https://www.naths.in/blog/unvaried)
+        </a>
+        . I was going through my journals and it is the same theme over and over
+        there too, paranoid for not being sufficiently in control, on letting
+        algorithmic feeds influence my behaviour.
       </div>
       <div className="para">
         The only projects I got done last year were{" "}
         <a href="https://github.com/narengogi/map-of-goodreads">
           mapping goodreads
         </a>{" "}
-        and an LED installation at my workplace. I would like to find some time
-        for myself, to leisurely walk to a fresh-water stream, to break into a
-        run, and to be able to keep my phone switched off.
+        and an{" "}
+        <a href="https://github.com/narengogi/portkey-led-board">
+          LED installation at my workplace.
+        </a>{" "}
+        I would like to find some time for myself, to leisurely walk to a
+        fresh-water stream, to break into a run, and to be able to keep my phone
+        switched off.
       </div>
     </div>
   );
