@@ -6,7 +6,7 @@ import "../Common/common.css";
 function Footer() {
   return (
     <div className="footer">
-      <a href="https://naths.in/rss.xml">
+      <a href="https://www.naths.in/rss.xml">
         <RssIcon
           width="0.8rem"
           role="img"
