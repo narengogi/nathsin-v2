@@ -9,7 +9,7 @@ export function lesswrong() {
       </div>
       <div className='para'>
         Richard Dawkins coined the term <code>meme</code> to denote a unit of information, information meant for cultural transmission and imitation. It would be neigh impossible to quantify embedded
-        context without constructing the environment that the information maps to. Ideas like religion permeate, often morphing to fit the chainging environment and persist. There are ideas that do
+        context without constructing the environment that the information maps to. Ideas like religion permeate, often morphing to fit the changing environment and persist. There are ideas that do
         not survive newer conditions, some that persist despite, some that only remain as salavaged boards making up a reconstructed ship.
       </div>
       <div className='para'>
