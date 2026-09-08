@@ -13,8 +13,10 @@ import {die} from "./Posts/die";
 import {abstractions} from "./Posts/abstractions"
 import { twentySeven } from './Posts/27';
 import { aCameraInMyFace } from './Posts/aCameraInMyFace';
+import { lesswrong } from './Posts/lesswrong';
 
 export const allPosts: any = [
+    {title: 'Lesswrong', date: '8th September 2026', href: '/lesswrong', content: lesswrong()},
     {title: 'A Camera in my Face', date: '15th August 2026', href: '/a-camera-in-my-face', content: aCameraInMyFace()},
     {title: 'Twenty Seven', date: '3rd May 2026', href: '/27', content: twentySeven()},
     // {title: 'abstractions', date: '9th April 2024', href: '/abstractions', content: abstractions()},
