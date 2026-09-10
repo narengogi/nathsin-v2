@@ -1,3 +1,27 @@
 .para {
   padding: 0.5rem 0;
 }
+
+.footnote {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--brightBlack);
+  color: var(--white);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.footnote a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.footnote a:hover,
+.footnote a:focus-visible {
+  color: var(--brightCyan);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
