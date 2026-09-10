@@ -26,7 +26,7 @@ export function aCameraInMyFace() {
       <div className="imgContainer">
         <video controls width="320" height="auto">
           <source
-            src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/videos/stallman.MOV#t=0,5"
+            src="https://raw.githubusercontent.com/narengogi/nathsin-v2/master/src/assets/videos/stallman.MOV"
             type="video/mp4"
           />
           Your browser does not support the video tag.
